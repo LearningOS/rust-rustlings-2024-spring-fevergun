@@ -7,10 +7,10 @@
 // Execute `rustlings hint move_semantics4` or use the `hint` watch subcommand
 // for a hint.
 
-
+// I AM NOT DONE
 
 fn main() {
-    //let vec0:Vec<i32> = Vec::new();
+    let vec0:Vec<i32> = Vec::new();
     //let _x = 5;
     let mut vec1 = fill_vec();
 
