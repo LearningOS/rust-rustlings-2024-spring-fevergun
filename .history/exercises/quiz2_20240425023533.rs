@@ -25,7 +25,7 @@
 pub enum Command {
     Uppercase,
     Trim,
-    Append(usize),
+    Append(u8),
 }
 
 mod my_module {

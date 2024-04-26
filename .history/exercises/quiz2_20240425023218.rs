@@ -20,12 +20,12 @@
 //
 // No hints this time!
 
-
+// I AM NOT DONE
 
 pub enum Command {
     Uppercase,
     Trim,
-    Append(usize),
+    Append(&usize),
 }
 
 mod my_module {

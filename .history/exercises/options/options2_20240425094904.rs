@@ -3,7 +3,7 @@
 // Execute `rustlings hint options2` or use the `hint` watch subcommand for a
 // hint.
 
-
+// I AM NOT DONE
 
 #[cfg(test)]
 mod tests {
@@ -33,14 +33,10 @@ mod tests {
         // adds another layer of Option<T>. You can stack `Option<T>`s into
         // while let and if let.
         while let Some(integer) = optional_integers.pop() {
-            if let Some(integer) = integer {
-                assert_eq!(integer, cursor);
-                cursor -= 1;
-            }
-
+            assert_eq!(integer, Some(cursor));
+            cursor -= 1;
         }
-        assert_eq!(cursor, 0);        
 
-        
+        assert_eq!(cursor, 0);
     }
 }

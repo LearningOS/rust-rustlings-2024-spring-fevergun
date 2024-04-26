@@ -20,7 +20,7 @@
 //
 // No hints this time!
 
-
+// I AM NOT DONE
 
 pub enum Command {
     Uppercase,
@@ -40,7 +40,7 @@ mod my_module {
             output.push(match command {
                 Command::Uppercase => string.to_uppercase(),
                 Command::Trim => string.trim().to_string(),
-                Command::Append(n) => string.to_string() + &"bar".repeat(*n),
+                Command::Append(n) => string.to_string() + &"bar".repeat(5),
             });
         }
         output

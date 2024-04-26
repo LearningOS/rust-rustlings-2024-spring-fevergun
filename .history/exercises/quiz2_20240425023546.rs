@@ -25,7 +25,7 @@
 pub enum Command {
     Uppercase,
     Trim,
-    Append(usize),
+    Append(u8),
 }
 
 mod my_module {
@@ -40,7 +40,7 @@ mod my_module {
             output.push(match command {
                 Command::Uppercase => string.to_uppercase(),
                 Command::Trim => string.trim().to_string(),
-                Command::Append(n) => string.to_string() + &"bar".repeat(*n),
+                Command::Append(n) => string.to_string() + &"bar".repeat(n),
             });
         }
         output
