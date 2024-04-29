@@ -7,7 +7,7 @@
 //
 // Execute `rustlings hint threads1` or use the `hint` watch subcommand for a
 // hint.
-
+1x·
 // I AM NOT DONE
 
 use std::thread;
